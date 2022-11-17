@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_71" data-name="Retângulo 71" width="38" height="38" transform="translate(436 5770)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Pinterest" transform="translate(-436 -5770)" clip-path="url(#clip-path)">
+    <g id="pinterest-2" data-name="pinterest" transform="translate(455 5789)">
+      <g id="pinterest-3" data-name="pinterest" transform="translate(-19 -19)">
+        <path id="Caminho_129" data-name="Caminho 129" d="M19,0A19,19,0,1,0,38,19,19.021,19.021,0,0,0,19,0Zm0,35.826A16.826,16.826,0,1,1,35.826,19,16.845,16.845,0,0,1,19,35.826Z" fill="#fff"/>
+        <path id="Caminho_130" data-name="Caminho 130" d="M95.827,61.248c-4.159-3.184-9.881-2.719-12.755,1.035a8.693,8.693,0,0,0,.05,10.178,1.087,1.087,0,0,0,1.8-1.224A6.529,6.529,0,0,1,84.8,63.6c2.145-2.8,6.5-3.085,9.707-.63s4.072,6.733,1.926,9.535a6.506,6.506,0,0,1-7.513,1.837l1.409-6.693A1.087,1.087,0,1,0,88.2,67.2L85.3,80.972a1.087,1.087,0,1,0,2.127.448l1.038-4.929a9.718,9.718,0,0,0,3.055.5,8.247,8.247,0,0,0,6.635-3.162C101.032,70.076,99.986,64.431,95.827,61.248Z" transform="translate(-71.615 -51.992)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

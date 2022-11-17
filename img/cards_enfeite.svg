@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="192" height="16" viewBox="0 0 192 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_27855" data-name="Retângulo 27855" width="192" height="16" transform="translate(938 -23)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Linha_título" data-name="Linha título" transform="translate(-938 23)" clip-path="url(#clip-path)">
+    <g id="linha-titulo" transform="translate(938 -19.914)">
+      <path id="Caminho_406" data-name="Caminho 406" d="M1.274,4.55l66.609-.91a1.174,1.174,0,0,1,1.092,1.092,1.174,1.174,0,0,1-1.092,1.092h0L1.274,5.1a.178.178,0,0,1-.182-.182A.635.635,0,0,1,1.274,4.55Z" fill="#bebebe"/>
+      <g id="Grupo_209" data-name="Grupo 209">
+        <path id="Caminho_407" data-name="Caminho 407" d="M87.9,4.914a2.73,2.73,0,0,1-5.46,0,2.8,2.8,0,0,1,2.73-2.73A2.68,2.68,0,0,1,87.9,4.914Z"/>
+        <path id="Caminho_408" data-name="Caminho 408" d="M77.71,4.914a1.638,1.638,0,1,1-1.638-1.638A1.631,1.631,0,0,1,77.71,4.914Z"/>
+        <circle id="Elipse_54" data-name="Elipse 54" cx="4.914" cy="4.914" r="4.914" transform="translate(90.813 0)" fill="#fb882a"/>
+      </g>
+      <path id="Caminho_409" data-name="Caminho 409" d="M190.18,5.1l-66.427.91a1.174,1.174,0,0,1-1.092-1.092,1.174,1.174,0,0,1,1.092-1.092h0l66.609.91a.178.178,0,0,1,.182.182C190.362,4.914,190.362,5.1,190.18,5.1Z" fill="#bebebe"/>
+      <g id="Grupo_210" data-name="Grupo 210">
+        <path id="Caminho_410" data-name="Caminho 410" d="M103.735,4.914a2.73,2.73,0,0,1,5.46,0,2.8,2.8,0,0,1-2.73,2.73A2.934,2.934,0,0,1,103.735,4.914Z"/>
+        <path id="Caminho_411" data-name="Caminho 411" d="M113.744,4.914a1.638,1.638,0,1,1,1.638,1.638A1.631,1.631,0,0,1,113.744,4.914Z"/>
+        <path id="Caminho_412" data-name="Caminho 412" d="M0,4.914A1.638,1.638,0,1,1,1.638,6.552,1.631,1.631,0,0,1,0,4.914Z"/>
+        <path id="Caminho_413" data-name="Caminho 413" d="M188.724,4.914a1.638,1.638,0,1,1,1.638,1.638A1.631,1.631,0,0,1,188.724,4.914Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

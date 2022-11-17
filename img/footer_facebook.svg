@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_33" data-name="Retângulo 33" width="38" height="38" transform="translate(310 5770)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Facebook" transform="translate(-310 -5770)" clip-path="url(#clip-path)">
+    <g id="facebook-2" data-name="facebook" transform="translate(310 5770)">
+      <path id="Caminho_47" data-name="Caminho 47" d="M19,0A19,19,0,1,0,38,19,19.021,19.021,0,0,0,19,0Zm0,35.826A16.826,16.826,0,1,1,35.826,19,16.845,16.845,0,0,1,19,35.826Z" fill="#fff"/>
+      <path id="Caminho_48" data-name="Caminho 48" d="M23.4,8.69H20.824A3.829,3.829,0,0,0,17,12.514v2.9H14.6a1.087,1.087,0,1,0,0,2.174H17V27.65a1.087,1.087,0,1,0,2.174,0V17.586h3.714a1.087,1.087,0,1,0,0-2.174H19.174v-2.9a1.652,1.652,0,0,1,1.651-1.651H23.4a1.087,1.087,0,0,0,0-2.174Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

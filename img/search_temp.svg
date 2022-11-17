@@ -1,0 +1,11 @@
+<svg id="Direita" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_29" data-name="Retângulo 29" width="35" height="35" fill="#f2811b"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_14" data-name="Grupo de máscara 14" opacity="0.7" clip-path="url(#clip-path)">
+    <path id="right-chevron" d="M17.5,35A17.5,17.5,0,1,1,35,17.5,17.5,17.5,0,0,1,17.5,35Zm4.055-18.273L16.633,11.8a1.094,1.094,0,1,0-1.547,1.547L19.234,17.5l-4.148,4.149A1.094,1.094,0,0,0,16.633,23.2l4.922-4.922a1.094,1.094,0,0,0,0-1.547Z" fill="#f2811b"/>
+  </g>
+  <path id="Subtração_1" data-name="Subtração 1" d="M1.1,0A1.077,1.077,0,0,0,.086.678,1.074,1.074,0,0,0,.322,1.867L4.471,6.016.322,10.164a1.1,1.1,0,0,0,0,1.547,1.094,1.094,0,0,0,1.547,0L6.791,6.789a1.093,1.093,0,0,0,0-1.546L1.869.32A1.09,1.09,0,0,0,1.1,0Z" transform="translate(14.764 11.484)" fill="#fff"/>
+</svg>

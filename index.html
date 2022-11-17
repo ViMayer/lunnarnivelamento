@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Fluxo Desktop</title>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <h1>FAIXA BANNER PROMOCIONAL</h1>
+        </div>
+        <div class="header-bottom">
+            <div class="logo">
+                <img src="./img/logo-casa-das-serras-nosignature-color.png" alt="Logo da Casa das Serras">
+            </div>
+            <nav class= "nav-main">
+                <ul>
+                    <li id="head-cat-js">
+                        <a>
+                            <svg height="100" width="100">
+                                <circle cx="50" cy="38" r="23"  />
+                            </svg> 
+                            <img src="./img/nav_categorias.png"><span>Todas categorias</span></a>
+                    </li>
+                    <li>
+                        <a>
+                            <svg height="100" width="100">
+                                <circle cx="50" cy="38" r="23"  />
+                            </svg> 
+                            <img src="./img/nav_ferramentas.png"><span>Ferramentas e construção</span></a>
+                    </li>
+                    <li>
+                        <a>
+                            <svg height="100" width="100">
+                                <circle cx="50" cy="38" r="23"  />
+                            </svg> 
+                            <img src="./img/nav_industria.png"><span>Indústria e comércio</span></a>
+                    </li>
+                    <li>
+                        <a>
+                            <svg height="100" width="100">
+                                <circle cx="50" cy="38" r="23"  />
+                            </svg> 
+                            <img src="./img/nav_eletrodomesticos.png"><span>Eletrodomésticos</span></a>
+                    </li>
+                    <li>
+                        <a>
+                            <svg height="100" width="100">
+                                <circle cx="50" cy="38" r="23"  />
+                            </svg> 
+                            <img src="./img/nav_casa.png"><span>Casa, Móveis e Decoração</span></a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="nav-more">
+
+                <ul> 
+                    <li class="pesquisar">
+                        <a class="search">
+                            
+                            <img src="./img/busca.png" onclick="searchToggle()" alt="Icone de busca"></a>
+                        
+                    </li>
+                    <li class="user">
+                        <svg height="100" width="100">
+                            <circle cx="30" cy="28" r="24"  />
+                        </svg>
+                        <a>
+                            <img src="./img/usuario.png" alt="Icone de usuario"></a>
+                            <div class="register">
+                                <button class="entrar">ENTRAR COM LOGIN E SENHA</button>
+                                <p>Não possue conta na casa das serras?</p>
+                                <button class="criar">CRIAR MINHA CONTA</button>
+                            </div>
+                        </li>
+                    <li><a><img src="./img/carrinho.png" alt="Icone de carrinho"></a></li>
+                </ul>
+                <div class="pesquisa">
+                    <div class="logo-search">
+                        <img src="./img/logo-casa-das-serras-nosignature-color.png" alt="Logo da Casa das Serras">
+                    </div>
+                    <img class="searchClose" onclick="searchToggle()" src="./img/search_temp.svg">
+                    <div class="caixa">
+                        
+                        <input type="text" name="pesquisa" id="" placeholder="O que você está procurando?">
+                        <img src="./img/busca.png" alt="Icone de busca">
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="categorias-container">
+            <div class="shadow">
+
+            </div>
+            <div class="categorias">
+                <ul>
+                    <li>
+                        <h3>Categoria Lorem</h3>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <a>Veja mais...</a>
+                    </li>
+                    <li>
+                        <h3>Categoria Lorem</h3>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <a>Veja mais...</a>
+                    </li>
+                    <li>
+                        <h3>Categoria Lorem</h3>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <a>Veja mais...</a>
+                    </li>
+                    <li>
+                        <h3>Categoria Lorem</h3>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <a>Veja mais...</a>
+                    </li>
+                    <li>
+                        <h3>Categoria Lorem</h3>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <a>Veja mais...</a>
+                    </li>
+                    <li>
+                        <h3>Categoria Lorem</h3>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <a>Veja mais...</a>
+                    </li>
+                    <li>
+                        <h3>Categoria Lorem</h3>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <a>Veja mais...</a>
+                    </li>
+                    <li>
+                        <h3>Categoria Lorem</h3>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <a>Veja mais...</a>
+                    </li>
+                    <li>
+                        <h3>Categoria Lorem</h3>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <a>Veja mais...</a>
+                    </li>
+                    <li>
+                        <h3>Categoria Lorem</h3>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <a>Veja mais...</a>
+                    </li>
+                    <li>
+                        <h3>Categoria Lorem</h3>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <a>Veja mais...</a>
+                    </li>
+                    <li>
+                        <h3>Categoria Lorem</h3>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <p>Categoria Lorem</p>
+                        <a>Veja mais...</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="background">
+            <img src="./img/hero_banner.png" alt="Imagem promocional Mite Cleaner UV">
+        </div>
+        <div class="arrows">
+            <a><img src="./img/hero_arrow.png" alt="anterior"></a>
+            <a><img src="./img/hero_arrow.png" alt="próximo" class="next"></a>
+        </div>
+        <div class="circles">
+            <ul>
+                <li><img src="./img/hero_circle_active.png"></li>
+                <li><img src="./img/hero_circle_inactive.png"></li>
+                <li><img src="./img/hero_circle_inactive.png"></li>
+                <li><img src="./img/hero_circle_inactive.png"></li>
+                <li><img src="./img/hero_circle_inactive.png"></li>
+            </ul>
+        </div>
+    </section>
+    <section class="regua">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="./img/regua_pagamento_seguro.svg">
+                    <h2>Pagamento cômodo e seguro</h2>
+                    <h3>com Mercado Pago</h3>
+                </li>
+                <li>
+                    <img src="./img/regua_parcelas.svg">
+                    <h2>Até 12 parcelas</h2>
+                    <h3>Sem Juros</h3>
+                </li>
+                <li>
+                    <img src="./img/regua_code.svg">
+                    <h2>À vista no</h2>
+                    <h3>Boleto Bancário</h3>
+                </li>
+                <li>
+                    <img src="./img/regua_meios_pagamento.svg">
+                    <h2>Mais meios de</h2>
+                    <h3>Pagamento</h3>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="cards">
+        <div class="container">
+            <div class="top">
+                <div class="sliders">
+                    <ul>
+                        <li><h2 class="cardTxt-js " onclick="swiper.slideTo(0)">Mais vendidos</h2></li>                           
+                        <li><h2 class="cardTxt-js active"onclick="swiper.slideTo(1)">Destaques</h2></li>
+                        <li><h2 class="cardTxt-js "onclick="swiper.slideTo(2)">Ofertas da semana</h2></li>
+                    </ul>
+                </div>
+                <div class="enfeite"><img src="./img/cards_enfeite.svg"></div>
+            </div>
+        </div>
+
+    </section>
+    <section class="carrossel">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <ul>
+                        <li>
+                            <div class="image">
+                                <img src="./img/cards_capacete.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <img src="./img/departamento_4.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <img src="./img/carrossel_soprador.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <img src="./img/departamento_5.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <img src="./img/carrossel_faqueiro.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <img src="./img/departamento_3.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                  </div>
+                  <div class="swiper-slide">
+                    <ul>
+                        <li>
+                            <div class="image">
+                                <img src="./img/carrossel_faqueiro.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <img src="./img/categorias_mop.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <img src="./img/departamento_2.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <img src="./img/carrossel_faqueiro.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <img src="./img/departamento_3.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <img src="./img/departamento_4.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                  </div>
+                  <div class="swiper-slide">
+                    <ul>
+                        <li>
+                            <div class="image">
+                                <img src="./img/departamento_4.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <img src="./img/departamento_3.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <img src="./img/carrossel_soprador.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <img src="./img/carrossel_faqueiro.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <img src="./img/cards_capacete.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <img src="./img/categorias_mop.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h2>R$ 999<sup>,99</sup></h2>
+                                <h3>6x de R$ 99,99</h3>
+                                <p>
+                                    <button><a href="">COMPRAR</a></button> 
+                                    Lorem Ipsum consectur avec adlip dolor sumit sans
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+    </section>
+    <section class="busca-categorias">
+        <div class="container">
+            <div class="top">
+                <h2>Busca por categorias</h2>
+                <img src="./img/cards_enfeite.svg">
+            </div>
+            <div class="bottom">
+                <div class="above">
+                    <ul>
+                        <li class="serra">
+                            <img src="./img/categorias_serra.png" alt="">
+                            <div class="text">
+                                <h2>Categoria lorem</br>Ipsum</h2>
+                                <button class="cat"><p>ver produtos</p></button>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="furadeira">
+                            <img src="./img/cards_furadeira.png" alt="">
+                            <div class="text">
+                                <h2>Categoria </br>lorem Ipsum</h2>
+                                <button class="cat"><p>ver produtos</p></button>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="mop">
+                            <img src="./img/cards_mop.png" alt="">
+                            <div class="text">
+                                <h2>Categoria lorem Ipsum</h2>
+                                <button class="cat"><p>ver produtos</p></button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="below">
+                    <ul>
+                        <li class="liquidificador">
+                            <img src="./img/categorias_liquidificador.png" alt="">
+                            <div class="text">
+                                <h2>Categoria </br> lorem Ipsum</h2>
+                                <button class="cat"><p>ver produtos</p></button>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="desparafusadeira">
+                            <img src="./img/categorias_despara.png" alt="">
+                            <div class="text">
+                                <h2>Categoria lorem Ipsum</h2>
+                                <button class="cat"><p>ver produtos</p></button>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="airfry">
+                            <img src="./img/categorias_airfry.png" alt="">
+                            <div class="text">
+                                <h2>Categoria lorem </br>Ipsum</h2>
+                                <button class="cat"><p>ver produtos</p></button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="frete-gratis">
+        <div class="container">
+            <div class="top">
+                <h2>Frete Grátis</h2>
+                <img src="./img/cards_enfeite.svg">
+            </div>
+            <div class="bottom">
+                <div class="arrows">
+                    <a href=""><img src="./img/hero_arrow.png" alt=""></a>
+                
+                    <a href=""><img class="reversed" src="./img/hero_arrow.png" alt=""></a>
+                </div>
+                <ul>
+                    <li class="info-js">
+                        <img src="./img/frete_gratis_1.png" alt="">
+                        <div class="infoBtn-js">
+                            <p><span>R$999,99</span></p>
+                            <h2>R$ 999<sup>,99</sup></h2>
+                            <h4>6x de R$99.99</h4>
+                            <p><button><a href="">COMPRAR</a></button><strong>Lorem Ipsum consectur avec adlip dolor sumit sans</strong></p>
+                        </div>
+                    </li>
+                    <li class="info-js">
+                        <img src="./img/frete_gratis_2.png" alt="">
+                        <div class="infoBtn-js">
+                            <p><span>R$999,99</span></p>
+                            <h2>R$ 999<sup>,99</sup></h2>
+                            <h4>6x de R$99.99</h4>
+                            <p><button><a href="">COMPRAR</a></button><strong>Lorem Ipsum consectur avec adlip dolor sumit sans</strong></p>
+                        </div>
+                    </li>
+                    <li class="info-js">
+                        <img src="./img/frete_gratis_3.png" alt="">
+                        <div class="infoBtn-js">
+                            <p><span>R$999,99</span></p>
+                            <h2>R$ 999<sup>,99</sup></h2>
+                            <h4>6x de R$99.99</h4>
+                            <p><button><a href="">COMPRAR</a></button><strong>Lorem Ipsum consectur avec adlip dolor sumit sans</strong></p>
+                        </div>
+                    </li>
+                    <li class="info-js">
+                        <img src="./img/frete_gratis_4.png" alt="">
+                        <div class="infoBtn-js">
+                            <p><span>R$999,99</span></p>
+                            <h2>R$ 999<sup>,99</sup></h2>
+                            <h4>6x de R$99.99</h4>
+                            <p><button><a href="">COMPRAR</a></button><strong>Lorem Ipsum consectur avec adlip dolor sumit sans</strong></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="busca-gratis">
+        <div class="container">
+            <div class="top">
+                <h2>Busca por categorias</h2>
+                <img src="./img/cards_enfeite.svg">
+            </div>
+            <div class="bottom">
+                <div class="arrows">
+                    <a href=""><img src="./img/hero_arrow.png" alt=""></a>
+                
+                    <a href=""><img class="reversed" src="./img/hero_arrow.png" alt=""></a>
+                </div>
+                <ul>
+                    <li class="info-js">
+                        <img src="./img/categorias_liquidificador.png" alt="">
+                        <div class="infoBtn-js">
+                            <span class="discount"><p>-25%</p></span>
+                            <p><span>R$999,99</span></p>
+                            <h2>R$ 999<sup>,99</sup></h2>
+                            <h4>6x de R$99.99</h4>
+                            <p><button><a href="">COMPRAR</a></button><strong>Lorem Ipsum consectur avec adlip dolor sumit sans</strong></p>
+                        </div>
+                    </li>
+                    <li class="info-js">
+                        <img src="./img/categorias_liquidificador.png" alt="">
+                        <div class="infoBtn-js">
+                            <span class="discount"><p>-25%</p></span>
+                            <p><span>R$999,99</span></p>
+                            <h2>R$ 999<sup>,99</sup></h2>
+                            <h4>6x de R$99.99</h4>
+                            <p><button><a href="">COMPRAR</a></button><strong>Lorem Ipsum consectur avec adlip dolor sumit sans</strong></p>
+                        </div>
+                    </li>
+                    <li class="info-js">
+                        <img src="./img/categorias_liquidificador.png" alt="">
+                        <div class="infoBtn-js">
+                            <span class="discount"><p>-25%</p></span>
+                            <p><span>R$999,99</span></p>
+                            <h2>R$ 999<sup>,99</sup></h2>
+                            <h4>6x de R$99.99</h4>
+                            <p><button><a href="">COMPRAR</a></button><strong>Lorem Ipsum consectur avec adlip dolor sumit sans</strong></p>
+                        </div>
+                    </li>
+                    <li class="info-js">
+                        <img src="./img/categorias_liquidificador.png" alt="">
+                        <div class="infoBtn-js">
+                            <span class="discount"><p>-25%</p></span>
+                            <p><span>R$999,99</span></p>
+                            <h2>R$ 999<sup>,99</sup></h2>
+                            <h4>6x de R$99.99</h4>
+                            <p><button><a href="">COMPRAR</a></button><strong>Lorem Ipsum consectur avec adlip dolor sumit sans</strong></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="departamentos">
+        <div class="container">
+            <div class="top">
+                <h2>Compre por Departamento</h2>
+            <img src="./img/cards_enfeite.svg">
+            </div>
+            <div class="bottom">
+                <div class="images">
+                    <div class="arrows">
+                        <a href=""><img src="./img/hero_arrow.png" alt=""></a>
+                       <a href=""><img class="reversed" src="./img/hero_arrow.png" alt=""></a>
+                    </div>
+                    <ul>
+                        <li class="depImg-js">
+                            <div class="image">
+                                <img src="./img/departamento_1.png" alt="">
+                            </div>
+                            <h2>Lorem Ipsum</h2>
+                        </li>
+                        <li class="depImg-js">
+                            <span class="image">
+                                <img src="./img/departamento_5.png" alt="">
+                            </span>
+                            <h2>Lorem Ipsum</h2>
+                        </li>
+                        <li class="depImg-js">
+                            <span class="image">
+                                <img src="./img/departamento_4.png" alt="">
+                            </span>
+                            <h2>Lorem Ipsum</h2>
+                        </li>
+                        <li class="depImg-js">
+                            <span class="image">
+                                <img src="./img/departamento_2.png" alt="">
+                            </span>
+                            <h2>Lorem Ipsum</h2>
+                        </li>
+                        <li class="depImg-js">
+                            <span class="image">
+                                <img src="./img/departamento_3.png" alt="">
+                            </span>
+                            <h2>Lorem Ipsum</h2>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="grade">
+        <div class="container">
+            <div class="cardBig left">
+                <div class="background">
+                    <img src="./img/grade_big_serra.png" alt="">
+                </div>
+                <div class="contents">
+                    <h2>LOREM IPSUM</h2>
+                    <button><a href="/">VER PRODUTOS</a></button>
+                </div>
+            </div>
+            <div class="smallCards">
+                <ul>
+                    <li class="sCard">
+                        <div class="background">
+                            <img src="./img/grade_small_cadeira.png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h2>LOREM IPSUM</h2>
+                            <button><a href="">VER PRODUTOS</a></button>
+                        </div>
+                    </li>
+                    <li class="sCard">
+                        <div class="background">
+                            <img src="./img/grade_small_cadeira.png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h2>LOREM IPSUM</h2>
+                            <button><a href="">VER PRODUTOS</a></button>
+                        </div>
+                    </li>
+                    <li class="sCard">
+                        <div class="background">
+                            <img src="./img/grade_small_cadeira.png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h2>LOREM IPSUM</h2>
+                            <button><a href="">VER PRODUTOS</a></button>
+                        </div>
+                    </li>
+                    <li class="sCard">
+                        <div class="background">
+                            <img src="./img/grade_small_cadeira.png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h2>LOREM IPSUM</h2>
+                            <button><a href="">VER PRODUTOS</a></button>
+                        </div>
+                    </li>
+                    <li class="sCard">
+                        <div class="background">
+                            <img src="./img/grade_small_cadeira.png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h2>LOREM IPSUM</h2>
+                            <button><a href="">VER PRODUTOS</a></button>
+                        </div>
+                    </li>
+                    <li class="sCard">
+                        <div class="background">
+                            <img src="./img/grade_small_cadeira.png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h2>LOREM IPSUM</h2>
+                            <button><a href="">VER PRODUTOS</a></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="cardBig right">
+                <div class="background">
+                    <img src="./img/grade_big_serra.png" alt="">
+                </div>
+                <div class="contents">
+                    <h2>LOREM IPSUM</h2>
+                    <button><a href="/">VER PRODUTOS</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="nossas-marcas">
+        <div class="container">
+            <div class="top">
+                <h2>Nossas marcas</h2>
+            <img src="./img/cards_enfeite.svg">
+            </div>
+            <div class="bottom">
+                <ul>
+                    <a href=""><img src="./img/hero_arrow.png" alt=""></a>
+                    <li><img src="./img/BALDAN.png" alt=""></li>
+                    <li><img src="./img/BELFIX.png" alt=""></li>
+                    <li><img src="./img/BLACK-DECKER.png" alt=""></li>
+                    <li><img src="./img/BOSCH.png" alt=""></li>
+                    <li><img src="./img/BRINOX.png" alt=""></li>
+                    <li><img src="./img/DEWALT.png" alt=""></li>
+                    <li><img src="./img/GAMMA.png" alt=""></li>
+                    <li><img src="./img/IPC.png" alt=""></li>
+                    <a href=""><img class="reversed" src="./img/hero_arrow.png" alt=""></a>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="top">
+            <div class="holder">
+                <div class="above">
+                    <ul>
+                        <li>
+                            <h2>INSTITUCIONAL</h2>
+                            <a>Sobre a Casa das Serras</a>
+                            <a>Como comprar</a>
+                            <a>Segurança</a>
+                            <a>Envio</a>
+                            <a>Pagamento</a>
+                            <a>Tempo de Garantia</a>
+                        </li>
+    
+                        <li>
+                            <h2>MINHA CONTA</h2>
+                            <a>Fazer login</a>
+                            <a>Minha Conta</a>
+                            <a>Meus Pedidos</a>
+                            <a>Meu Carrinho</a>
+                            <a>Vender meus produtos</a>
+                        </li>
+                        <li>
+                            <h2>POLÍTICA DA EMPRESA</h2>
+                            <a>Políticas da Empresa</a>
+                            <a>Políticas de Troca e Devolução</a>
+                            <a>Políticas de Entrega</a>
+                            <a>FAQ</a>
+                            <a>Termos de Garantia</a>
+                        </li>
+                        <li>
+                            <h2>FALE CONOSCO</h2>
+                            <p>SAC + 55 (11) 3328 6180</p>
+                            <p><span>Seg à sex - 9 às 13h e 14 às 18h</span></p>
+                            
+                            <p class="email">
+                                <img src="./img/footer_email.svg" alt="Nosso e-mail:">
+                                vendas@casadasserras.com.br
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="below">
+                    <ul>
+                        <li>
+                            <h2>FORMAS DE PAGAMENTO</h2>
+                            <img src="./img/footer_mercado_pago_temporario.png" alt="Imagem mercado pago e cartões associados">
+                        </li>
+                        <li>
+                            <h2>SIGA-NOS</h2>
+                            <a href="/">
+                                <img src="./img/footer_facebook.svg" alt="Logo do Facebook">
+                                <img src="./img/footer_instagram.svg" alt="Logo do Instagram">
+                                <img src="./img/footer_pinterest.svg" alt="Logo do Pinterest">
+                            </a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom">
+            <div class="holder">
+                <div class="text">
+                    <p>Casa das Serras LTDA | CNPJ: 02.967.761/0009-08</p>
+                <p>© Todos os direitos reservados. Eventuais promoções,descontos e prazos de pagamento expostos aqui são válidos apenas para compras no Mercado Shops. As fotos, textos e layout aqui veiculados são de propriedade da Loja. Proibida a veiculação sem nossa autorização.</p>
+                </div>
+                <img src="./img/footer_parcerias.png" alt="">
+            </div>
+        </div>
+
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        initialSlide: 1,
+        slidesPerView: 1
+      });
+    </script>
+    <script type="text/javascript" src="./scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_34" data-name="Retângulo 34" width="38" height="38" transform="translate(373 5770)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Instagram" transform="translate(-373 -5770)" clip-path="url(#clip-path)">
+    <g id="instagram-2" data-name="instagram" transform="translate(373 5770)">
+      <path id="Caminho_49" data-name="Caminho 49" d="M19,0A19,19,0,1,0,38,19,19.021,19.021,0,0,0,19,0Zm0,35.826A16.826,16.826,0,1,1,35.826,19,16.845,16.845,0,0,1,19,35.826Z" fill="#fff"/>
+      <path id="Caminho_50" data-name="Caminho 50" d="M25.919,9.7H12.081A2.3,2.3,0,0,0,9.786,12V26A2.3,2.3,0,0,0,12.081,28.3H25.919A2.3,2.3,0,0,0,28.214,26V12A2.3,2.3,0,0,0,25.919,9.7ZM26.04,26a.121.121,0,0,1-.121.121H12.081A.121.121,0,0,1,11.96,26V12a.121.121,0,0,1,.121-.121H25.919A.121.121,0,0,1,26.04,12Z" fill="#fff"/>
+      <rect id="Retângulo_35" data-name="Retângulo 35" width="2.49" height="2.284" transform="translate(22.171 13.503)" fill="#fff"/>
+      <circle id="Elipse_5" data-name="Elipse 5" cx="2.454" cy="2.454" r="2.454" transform="translate(16.546 17.466)" fill="#fff"/>
+      <path id="Caminho_51" data-name="Caminho 51" d="M22.915,19.909a3.915,3.915,0,1,1-7.83,0l.005-1.744H13.34v6.493H24.661V18.165H22.924Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>
