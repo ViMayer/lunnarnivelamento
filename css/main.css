@@ -540,7 +540,7 @@ header {
 }
 
 .hero .arrows {
-
+    margin-top: 11rem;
     position: absolute;
     top: 0;
     left: 0;
